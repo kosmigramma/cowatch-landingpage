@@ -123,7 +123,7 @@
                 The Video/Audio is streamed to the others in the room using WebRTC.
             </li>
         </ol>
-        <a target="_blank" id="createRoomButton" href="https://app.kosmi.io/room/9mcdje?app=cowatch">
+        <a target="_blank" id="createRoomButton" href="https://app.kosmi.io/lobby?app=cowatch">
     Click here to create a room and watch something awesome!
     </a>
         <span id="poweredBy">Powered by
@@ -132,15 +132,6 @@
             href="https://kosmi.io"
             ></a></span>
     </div>
-    <script>
-        window.onload = function() {
-            function randomizeRoomLink() {
-                document.getElementById("createRoomButton").href = "https://app.kosmi.io/room/" + Math.random().toString(36).substring(7) + "?app=cowatch";
-            }
-            window.setInterval(randomizeRoomLink, 1000);
-            randomizeRoomLink();
-        }
-    </script>
 
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-55048703-9"></script>
